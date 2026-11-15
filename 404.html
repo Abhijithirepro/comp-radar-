@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Competitor Radar · HirePro</title>
-  <base href="/comp-radar-/">
+  <base href="/">
+  <script>
+    /* GitHub Pages serves the read-only copy under /<repo>/; Vercel and the local server serve it at / */
+    if (location.hostname.endsWith('github.io')) document.querySelector('base').setAttribute('href', '/' + location.pathname.split('/')[1] + '/');
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script>

@@ -1,6 +1,6 @@
 # Competitor Radar (read-only copy)
 
-Open it here: **https://abhijithirepro.github.io/comp-radar-/**
+Open it here: **https://comp-radar-orpin.vercel.app**
 
 This is a saved copy of HirePro's Competitor Radar dashboard. Every page can be read
 (Briefing, Competitors, News, Gaps, Changes, Scans). It is updated each time a refresh is run.
